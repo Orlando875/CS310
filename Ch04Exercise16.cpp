@@ -2,14 +2,12 @@
 #include <iomanip>
 using namespace std;
 
-// Constants
 const double FIXED_ADVANCE = 5000.0;                
 const double PUBLICATION_PAYMENT = 20000.0;         
 const double ROYALTY_RATE_OPTION_2 = 0.125;         
 const double ROYALTY_RATE_OPTION_3_FIRST_4000 = 0.10;  
 const double ROYALTY_RATE_OPTION_3_AFTER_4000 = 0.14;   
 
-// Function declarations
 double calculateOption1();
 double calculateOption2(double netPrice, int estimatedSales);
 double calculateOption3(double netPrice, int estimatedSales);
